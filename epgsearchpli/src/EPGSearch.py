@@ -42,7 +42,8 @@ typeMap = {
 
 caseMap = {
 	"sensitive": eEPGCache.CASE_CHECK,
-	"insensitive": eEPGCache.NO_CASE_CHECK
+	"insensitive": eEPGCache.NO_CASE_CHECK,
+	"regex": eEPGCache.REGEX_CHECK
 }
 
 def GetTypeMap():
